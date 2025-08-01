@@ -61,22 +61,37 @@ section{
 .sec1{
     display:none;
     transform:translateY(0) scale(1);
+    background-color: slateblue;
 }
 
 .sec2{
     display:none;
     transform:translateY(0) scale(1);
+    background-color: rgba(252, 218, 149, 0.3)
 }
 
 .sec3{
     display:none;
     transform:translateY(0) scale(1);
+    background-color:rgba(248, 30, 62, 0.3);
 }
 
 .sec4{
     display:none;
     transform:translateY(0) scale(1);
+   background-color: rgba(198, 208, 108, 0.3);
 }
+
+.sec5{
+    display:none;
+    transform:translateY(0) scale(1);
+    background-color:rgba(124, 138, 230, 0.3);
+}
+
+.active{
+    display:block;
+}
+
 
 // Controls
 .controls{
