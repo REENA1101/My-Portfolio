@@ -15,7 +15,7 @@ function pageTransitions(){
      }
 
 
-// Active section sswitching up function 
+// Active section switching up function 
 allSections.addEventListener('click', (e)=>{
       const id = e.target.dataset.id;
       if(id){
@@ -24,7 +24,7 @@ allSections.addEventListener('click', (e)=>{
         })
         e.target.classList.add('active')
 
-        // hide other sections 
+        // hide other sections
         sections.forEach((section)=>{
             section.classList.remove(active)
         })

@@ -55,7 +55,7 @@ section{
 .section{
     transform: translateY(-100%) scale(0);
     transition: all .4s ease-in-out;
-    background-color:var(--color-primary)
+    background-color:var(--color-primary);
 }
 
 .sec1{
@@ -73,19 +73,18 @@ section{
 .sec3{
     display:none;
     transform:translateY(0) scale(1);
-    background-color:rgba(248, 30, 62, 0.3);
+    background-color:rgba(231, 13, 46, 0.3);
 }
 
 .sec4{
     display:none;
     transform:translateY(0) scale(1);
-   background-color: rgba(198, 208, 108, 0.3);
+   background-color: rgba(237, 122, 35, 0.3);
 }
 
 .sec5{
     display:none;
     transform:translateY(0) scale(1);
-    background-color:rgba(124, 138, 230, 0.3);
 }
 
 .active{
